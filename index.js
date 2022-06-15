@@ -2,22 +2,6 @@ let numVagasIntro = document.querySelector(".intro");
 let testeDiv = document.querySelector(".teste");
 let containerDiv = document.querySelector(".container");
 
-// var db_inicial = {
-//     "horarios": [
-//         {
-//           "nomeVaga": "Estágio de Ciência da Computação",
-//           "areaVaga": "TI",
-//           "endereco": "Av. do Contorno, n° 1020, Lourdes",
-//           "horarios": ["17/06 - 12:00", "19/06 - 15:40"]
-//         },
-//         {
-//             "nomeVaga": "Estágio de Relações Internacionais",
-//             "areaVaga": "RI",
-//             "endereco": "Av. Afonso Pena, n° 160, Mangabeiras",
-//             "horarios": ["17/06 - 12:00", "19/06 - 15:40"]
-//         }
-//     ]
-// }
 
 onload = () => {
     let dados = JSON.parse(localStorage.getItem("db_horarios"));

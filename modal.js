@@ -6,11 +6,9 @@ let inputEndereco = document.querySelector(".inputEndereco");
 
 let arrayHorDisp = [];
 function maisHorarios(){
-    
-    //document.getElementById("addHor").innerHTML += '<input type="text" name="horarioVaga[]"  />';
+
     
     let horariosSalvos = document.createElement("p");
-    //let inputsHorarios = document.createElement("input");
     
     let inputValue = inputsHorarios.value;
     

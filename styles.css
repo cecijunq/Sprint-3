@@ -23,7 +23,6 @@ header img:hover {
 
 .navBar {
     width: 600px;
-    /* margin-right: 40px; */
     display: flex;
     justify-content: space-between;
 }
@@ -68,7 +67,6 @@ header img:hover {
     border-radius: 50px;
     position: fixed;
     margin-top: 80px;
-    /* margin-top: 210px; */
     margin-left: 112px;
 }
 
@@ -101,11 +99,6 @@ header img:hover {
     padding: 10px;
     margin-bottom: 30px;
 }
-
-/* #btn_add {
-    width: 380px;
-    margin-bottom: 25px;
-} */
 
 button {
     width: 120px;
@@ -159,7 +152,6 @@ button:hover {
 }
 
 .addHor {
-    /* display: flex; */
     align-items: center;
 }
 
@@ -174,23 +166,11 @@ button {
     font-size: 20px;
 }
 
-/* .teste button {
-    margin-top: 20px;
-    width: 180px;
-} */
 
 #btnSalva {
     margin-bottom: 10px;
 }
 
-/* #btnVolta {
-    width: 180px;
-}
-
-#btnVolta a {
-    color: white;
-    text-decoration: none;
-} */
 
 #btn_addhor {
     width: 200px;
@@ -201,9 +181,6 @@ button {
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    /* margin: 30px 0px 30px 0px; */
-    /* margin: 30px 0px 30px 720px; */
-    /* margin-left: 725px; */
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -226,8 +203,8 @@ li {
     }
 
     header img {
-        width: 180px;
-        margin-left: -15px;
+        width: 150px;
+        margin-left: -35px;
     }
 
     header nav {
@@ -237,22 +214,24 @@ li {
     .navBar {
         width: 100%;
         display: block;
+        margin-left: -20px;
     }
 
     .navBar li {
+        font-size: 15px;
         margin-bottom: 8px;
         /* text-align: right; */
     }
 
     #btn_nextpage {
-        position: fixed;
-        margin-top: 180px;
-        margin-left: 420px;
+        position: absolute;
+        margin-top: 165px;
+        margin-left: 290px;
     }
 
     #icon_arrow {
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 15px;
     }
 
     .bodyIndex {
@@ -265,9 +244,18 @@ li {
         margin-left: 15px;
     }
 
+    .intro p {
+        width: 80%;
+    }
+
     .box_div {
         width: 90%;
         /* width: 370px; */
+    }
+
+    #title_modal {
+        width: 80%;
+        margin-left: 70px;
     }
 
     .input_label {
@@ -276,31 +264,37 @@ li {
 
     .label {
         margin-left: 0px;
-        width: 45%;
+        width: 50%;
     }
 
     .label label {
         font-size: 13px;
         text-align: left;
         margin-left: 5px;
-        width: 220px;
+        width: 100%;
     }
 
     .label label:nth-child(4) {
-        margin-top: -12px;
+        margin-top: -15px;
     } 
 
     .inputs {
         margin-left: 0px;
-        width: 55%;
+        width: 50%;
     }
+
     .inputs input{
         margin-left: 0px;
         width: 95%;
     }
 
+    #btn_addhor {
+        width: 100px;
+        font-size: 19px;
+    }
+
     .SalvoHorarios {
-        width: 95%;
+        width: 90%;
         margin-left: 5px;
     }
 }
